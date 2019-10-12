@@ -1,2 +1,2 @@
 # KabTidalWaves
-Wow Addon
+Wow Tidal Waves Addon
