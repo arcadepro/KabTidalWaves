@@ -1,8 +1,8 @@
-local f 					= CreateFrame("Frame")
-local spellID     			= 53390 -- Tidal Waves
-local texturePath			= 592058 -- GetFileIDFromPath("TEXTURES\\SPELLACTIVATIONOVERLAYS\\SURGE_OF_DARKNESS") -- 592058
-local scale					= 1
-local r,g,b					= 60, 255, 200
+local f = CreateFrame("Frame")
+local spellID = 53390 -- Tidal Waves
+local texturePath = 592058 -- GetFileIDFromPath("TEXTURES\\SPELLACTIVATIONOVERLAYS\\SURGE_OF_DARKNESS") -- 592058
+local scale	= 1
+local r,g,b	= 60, 255, 200
 
 local function overlayOn(tidalstacks)
 	if tidalstacks == 1 then
