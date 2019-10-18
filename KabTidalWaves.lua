@@ -30,3 +30,4 @@ f:SetScript("OnEvent", function(self, event, ...)
 end)
 
 f:RegisterUnitEvent("UNIT_AURA", "player")
+f:RegisterUnitEvent("SPELL_ACTIVATION_OVERLAY_HIDE")
