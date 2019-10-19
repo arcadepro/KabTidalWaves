@@ -8,7 +8,7 @@ local function overlayOn(tidalstacks)
 	if tidalstacks == 1 then
 		--print("1 tidal stack")
 		SpellActivationOverlay_ShowOverlay(SpellActivationOverlayFrame, spellID, texturePath, "LEFT", scale, r, g, b, false, false)	-- left on
-		SpellActivationOverlay_ShowOverlay(SpellActivationOverlayFrame, spellID, "", "RIGHT", scale, 0, 0, 0, false, true)			-- right off
+		SpellActivationOverlay_ShowOverlay(SpellActivationOverlayFrame, spellID, "", "RIGHT", scale, 0, 0, 0, false, true)		-- right off
 	elseif tidalstacks == 2 then
 		--print("2 tidal stacks")
 		SpellActivationOverlay_ShowOverlay(SpellActivationOverlayFrame, spellID, texturePath, "LEFT", scale, r, g, b, false, false)	-- left on
