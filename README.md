@@ -1,2 +1,2 @@
 # KabTidalWaves
-Wow Tidal Waves Addon
+Shadowlands version.
