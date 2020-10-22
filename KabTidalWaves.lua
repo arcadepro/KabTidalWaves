@@ -21,6 +21,7 @@ local function overlayOff()
 end
 
 f:SetScript("OnEvent", function(self, event, ...)
+--name, icon, count, debuffType, duration, expirationTime, unitCaster, canStealOrPurge, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, isCastByPlayer, nameplateShowAll, timeMod, ... = AuraUtil.FindAuraByName(auraName, unit, filter)
 	local _, _, count = AuraUtil.FindAuraByName("Tidal Waves", "player", "HELPFUL")
 	if count then
 		overlayOn(count)
