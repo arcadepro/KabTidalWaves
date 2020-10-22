@@ -1,7 +1,7 @@
 ## Title: |cff3399FFKab|r Tidal Waves
-## Interface: 80200
+## Interface: 90001
 ## Author: Kab
-## Version: 1.05
+## Version: 1.06
 ## Notes: Provides an alert when you have the the Tidal Waves Buff.
 
 KabTidalWaves.lua
