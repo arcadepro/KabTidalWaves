@@ -2,6 +2,6 @@
 ## Interface: 90001
 ## Author: Kab
 ## Version: 1.06
-## Notes: Provides an alert when you have the the Tidal Waves Buff.
+## Notes: Provides an overlay to track the Tidal Waves Buff.
 
 KabTidalWaves.lua
